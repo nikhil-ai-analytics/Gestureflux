@@ -1,6 +1,6 @@
-# Nebula Hands: 3D Particle Weaver
+# GestureFlux 3D: Turn gestures into motion
 
-Nebula Hands is a high-performance, real-time interactive 3D particle system controlled entirely by hand gestures through your webcam. Built with **React**, **Three.js (@react-three/fiber)**, and **Google MediaPipe**, it creates an immersive cosmic experience where you "weave" light and sound.
+GestureFlux 3D is a high-performance, real-time interactive 3D particle system controlled entirely by hand gestures through your webcam. Built with **React**, **Three.js (@react-three/fiber)**, and **Google MediaPipe**, it creates an immersive experience where you "weave" light and sound.
 
 ## ✨ Features
 
@@ -19,7 +19,7 @@ Nebula Hands is a high-performance, real-time interactive 3D particle system con
 | :--- | :--- | :--- |
 | **Pinch** | Change scale of the structure | Shifts oscillator frequency (tension) |
 | **Open Palm** | Expand / Explode particles | Increases filter cutoff (brightness/energy) |
-| **Move Hand** | Translate structure in 3D space | Adjusts ambient "nebula" hum |
+| **Move Hand** | Translate structure in 3D space | Adjusts ambient hum |
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ This project is designed to run in modern browsers using ES Modules.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/nebula-hands.git
+   git clone https://github.com/your-username/gesture-flux-3d.git
    ```
 
 2. **Run a local server**:

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ParticleConfig, ParticleTemplate } from '../types';
 
@@ -35,10 +34,10 @@ const Controls: React.FC<Props> = ({ config, setConfig, isCameraActive, setIsCam
       {/* Header */}
       <div className="glass-panel p-6 rounded-3xl">
         <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-          NEBULA HANDS
+          GESTUREFLUX 3D
         </h1>
         <p className="text-[10px] text-white/40 tracking-[0.2em] uppercase mt-1">
-          Reactive Particle Weaver
+          Turn gestures into motion
         </p>
       </div>
 
