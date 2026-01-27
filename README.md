@@ -1,11 +1,52 @@
-<div align="center">
+# Nebula Hands: 3D Particle Weaver
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Nebula Hands is a high-performance, real-time interactive 3D particle system controlled entirely by hand gestures through your webcam. Built with **React**, **Three.js (@react-three/fiber)**, and **Google MediaPipe**, it creates an immersive cosmic experience where you "weave" light and sound.
 
-  <h1>Built with AI Studio</h2>
+## ✨ Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Gesture Control**: Real-time hand tracking detects pinch, palm expansion, and spatial movement.
+- **Dynamic 3D Particles**: Choose between multiple geometric templates:
+  - 🪐 **Saturn**: A planetary sphere with orbiting rings.
+  - ❤️ **Hearts**: A romantic, swirling heart formation.
+  - 🌸 **Flowers**: Intricate rose-curve petal patterns.
+  - 🎆 **Fireworks**: Randomly dispersed explosive structures.
+- **Generative Sound Engine**: A Web Audio API backend that synthesizes sound based on your hand tension (pinch) and energy (expansion).
+- **Glassmorphism UI**: A sleek, translucent control panel for real-time customization.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🖐️ Gesture Controls
 
-</div>
+| Gesture | Action | Audio Response |
+| :--- | :--- | :--- |
+| **Pinch** | Change scale of the structure | Shifts oscillator frequency (tension) |
+| **Open Palm** | Expand / Explode particles | Increases filter cutoff (brightness/energy) |
+| **Move Hand** | Translate structure in 3D space | Adjusts ambient "nebula" hum |
+
+## 🚀 Getting Started
+
+This project is designed to run in modern browsers using ES Modules.
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/nebula-hands.git
+   ```
+
+2. **Run a local server**:
+   Because this uses Camera permissions and ESM imports, you must serve it via `localhost`. You can use any static server:
+   ```bash
+   npx serve .
+   ```
+
+3. **Open the browser**:
+   Navigate to `http://localhost:3000` (or the port specified by your server).
+
+## 🛠️ Tech Stack
+
+- **React 19**: UI and State Management.
+- **Three.js & React Three Fiber**: 3D rendering and particle math.
+- **MediaPipe Hands**: Real-time computer vision for hand tracking.
+- **Web Audio API**: Generative synthesizer logic.
+- **Tailwind CSS**: Modern UI styling.
+
+## 📜 License
+
+This project is licensed under the MIT License. Feel free to use it for your own cosmic experiments!

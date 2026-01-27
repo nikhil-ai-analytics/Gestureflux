@@ -1,0 +1,21 @@
+{
+  "name": "nebula-hands",
+  "version": "1.0.0",
+  "description": "Interactive 3D particle system controlled by hand gestures using MediaPipe and Three.js.",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "threejs",
+    "mediapipe",
+    "react",
+    "particles",
+    "gesture-control",
+    "web-audio-api",
+    "nebula"
+  ],
+  "author": "Nebula Hands Developer",
+  "license": "MIT"
+}
